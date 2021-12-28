@@ -83,6 +83,7 @@ public class LearnOn_App_SplashScreen_For_MyCourse extends AppCompatActivity {
                                     response_element.getString("price"));
                             LearnOn_Main.MyCourseList.add(temp);
                         }
+                        Log.d("Display",LearnOn_Main.MyCourseList.toString());
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
