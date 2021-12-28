@@ -24,11 +24,9 @@ public class LearnOn_List extends Fragment {
     private LearnOn_List_RecycleAdapter.RecyclerViewClickListener listener;
 
 
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
     }
 
@@ -42,15 +40,12 @@ public class LearnOn_List extends Fragment {
         Window window = getActivity().getWindow();
         window.setStatusBarColor(Color.rgb(200,100,50));
 
-
-
         ListRecyclerView = v.findViewById(R.id.LearnOn_List_RecyclerView);
         ArrayList<Learn> llist = LearnOn_Main.Llist;
         setAdapter(llist);
 
         return v;
     }
-
 
     private void setAdapter(ArrayList<Learn> myList) {
         setOnClickListener();

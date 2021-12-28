@@ -29,9 +29,11 @@
         android:theme="@style/Theme.SpacECEedu"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".LearnOnApp.LearnOn_App_SplashScreen_For_MyCourse"
+            android:exported="true" />
+        <activity
             android:name=".Authentication.NumberVerification"
             android:exported="true" />
-
         <activity
             android:name=".Consultants.ConsultUs_SplashScreen"
             android:exported="true" />
@@ -55,7 +57,7 @@
             android:name=".Authentication.ConsultantRegistrationFinal"
             android:exported="true"
             android:theme="@style/Theme.SpacECEedu.NoActionBar" />
-        <activity android:name=".Authentication.UserRegistration"/>
+        <activity android:name=".Authentication.UserRegistration" />
         <activity
             android:name=".Consultants.Consultant_GetAppointment"
             android:exported="true" />
@@ -68,7 +70,6 @@
         <activity
             android:name=".ActivityDetailsActivity"
             android:exported="true" />
-
         <activity
             android:name=".Consultants.ConsultantProfile"
             android:exported="true" />
@@ -109,10 +110,9 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
-        <service android:name=".Test.listener"
-            android:enabled="true"/>
-
+        <service
+            android:name=".Test.listener"
+            android:enabled="true" />
     </application>
 
 </manifest>

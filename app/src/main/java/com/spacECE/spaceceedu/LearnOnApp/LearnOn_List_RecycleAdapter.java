@@ -18,8 +18,6 @@ public class LearnOn_List_RecycleAdapter extends RecyclerView.Adapter<LearnOn_Li
 
     ArrayList<Learn> Llist;
 
-
-
     private final LearnOn_List_RecycleAdapter.RecyclerViewClickListener listener;
 
 
@@ -29,6 +27,7 @@ public class LearnOn_List_RecycleAdapter extends RecyclerView.Adapter<LearnOn_Li
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+
         private final TextView tv_category;
         private final Button tv_enroll;
 
@@ -46,15 +45,17 @@ public class LearnOn_List_RecycleAdapter extends RecyclerView.Adapter<LearnOn_Li
 
 
         @Override
-        public void onClick(View view) {listener.onClick(view, getAdapterPosition()); }
+        public void onClick(View view) {
+            listener.onClick(view, getAdapterPosition()); }
     }
-
+//ircp
 
     @NonNull
     @Override
     public LearnOn_List_RecycleAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.learnon_list_list_item, parent, false);
-        return new LearnOn_List_RecycleAdapter.MyViewHolder(itemView);
+
+            View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.learnon_list_list_item, parent, false);
+            return new LearnOn_List_RecycleAdapter.MyViewHolder(itemView);
     }
 
     @Override

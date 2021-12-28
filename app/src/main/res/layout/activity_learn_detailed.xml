@@ -10,9 +10,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="?attr/actionBarSize"
         android:paddingTop="4dp"
         android:paddingLeft="15dp"
+        android:background="@color/white"
         android:orientation="horizontal">
 
         <ImageView
@@ -33,11 +34,18 @@
 
     </LinearLayout>
 
-    <Toolbar
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/background_shape"
+        android:textSize="20sp"
         android:titleTextColor="@color/black"
-        android:title="All Courses" />
+        android:text="Name Of Courses" />
 
 
 
@@ -52,17 +60,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="14dp"
+            android:gravity="center"
+            android:fontFamily="@font/average"
+            android:layout_gravity="left"
             android:textColor="@color/black"
             android:textSize="16dp"
             android:textStyle="bold"
-            android:text="Enrollment Details"/>
+            android:text="Course Details"/>
 
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp"
-            android:backgroundTint="@color/Spacece_Yelloww"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/white"
             android:padding="20dp">
 
             <LinearLayout
@@ -77,7 +88,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:text="Mathemattics and statistics"/>
 
                 <TextView
@@ -85,7 +96,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:text="Online on whatsapp"/>
 
                 <TextView
@@ -107,9 +118,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
+            android:text="Important Note"
+            android:fontFamily="@font/average"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:text="Note"/>
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
 
 
@@ -117,7 +130,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
-            app:cardCornerRadius="16dp"
+            app:cardCornerRadius="10dp"
             android:elevation="6dp">
 
             <TextView
@@ -153,36 +166,29 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="20dp"
+                android:fontFamily="@font/almendra"
+                android:padding="15dp"
                 android:text="Happy Learning!"
                 android:textAlignment="center"
                 android:textColor="@color/Spacece_Yellow"
-                android:textSize="20dp" />
+                android:textSize="23dp"
+                android:textStyle="italic" />
 
             <Button
                 android:id="@+id/Buy"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:layout_gravity="center_horizontal"
                 android:elevation="10dp"
-                android:padding="20dp"
+                android:padding="15dp"
+                android:textSize="15sp"
                 android:backgroundTint="@android:color/holo_green_dark"
                 android:text="Enroll Now!" />
 
 
         </LinearLayout>
 
-
-
-
-
     </LinearLayout>
-
-
-
-
-
-
 
 </LinearLayout>

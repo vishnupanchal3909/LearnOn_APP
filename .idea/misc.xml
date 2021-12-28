@@ -3,6 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/drawable/allcourses.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/drawable/background_shape.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/drawable/border.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/drawable/btn_endcall.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_consultant_main.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_learn_detailed.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_learn_on_app_splash_screen_for_my_course.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_learn_on_main.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_learnon_list_splashscreen.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_watch_course.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/book_fragment_learn_on_list.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/book_learnon_list_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/fragment_book__learn_on__list.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/fragment_learn_on__list.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/learnon_list_item_in_mycourse.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/learnon_list_list_item.xml" value="0.264" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/menu/consultant_main_bottomnav.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/menu/consultant_main_consultants_bottomnav.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/menu/navigation_bottom.xml" value="0.25" />
         <entry key="..\:/Work/SpacECE/SpacECEedu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
         <entry key="..\:/Work/SpacECE/SpacECEedu/app/src/main/res/drawable/circle.xml" value="0.2520833333333333" />
         <entry key="..\:/Work/SpacECE/SpacECEedu/app/src/main/res/drawable/ic_baseline_add_comment_24.xml" value="0.26614583333333336" />
